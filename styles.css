@@ -1,0 +1,217 @@
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0.7;
+  padding: 20px;
+}
+
+/* Titlu principal */
+.title {
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  color: #2e594d;
+}
+
+.title h2 {
+  font-family: "Ancizar Serif", serif;
+  font-style: italic;
+  color: black;
+}
+
+/* Navigație */
+.navigation {
+  text-align: center;
+  width: 100%;
+  background-color: #2e594d;
+  padding: 10px 0;
+}
+
+.navigation li {
+  display: inline;
+  margin: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #c1e1c1;
+}
+
+/* Containerul principal */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+  background-color: rgba(193, 225, 193, 0.7);
+  border-top: 2px solid #2e594d;
+  border-bottom: 2px solid #2e594d;
+}
+
+/* Elemente din container */
+.item {
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.item img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid #2e594d;
+  object-fit: cover;
+}
+
+.item h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.item p {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-top: 2px solid #2e594d;
+}
+
+.footercontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  font-family: "Rubik", sans-serif;
+  color: #2e594d;
+  margin: 10px;
+}
+
+.footer h2 {
+  font-family: "Ancizar Serif", serif;
+  font-style: italic;
+  color: black;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.contactlogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactlogo img {
+  width: 24px;
+  height: 24px;
+}
+
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+  background-color: rgba(193, 225, 193, 0.7);
+  border-top: 2px solid #2e594d;
+  border-bottom: 2px solid #2e594d;
+}
+
+.container2 img {
+  max-width: 100%;
+  border-radius: 20%;
+  height: 370px;
+}
+.info-list {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: #333;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.info-list li {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  color: #333;
+  padding-left: 20px;
+  margin-top: 10px;
+  
+}
+
+
+p{
+  text-align: left;
+}
+
+ol li{
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+  color: #333;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  
+}
+
+.important{
+  color: #d64550 !important;
+  font-size: 24px !important;
+}
+
+.text{
+  margin-bottom: 10px;
+  line-height: 1.2;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-size: 15px;
+  color: #333;
+  padding-left: 20px;
+  margin-top: 10px;
+  
+}
+
+.container2 h2 {
+  text-align: left;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+}
+
+.container2 h1{
+  font-family: "Ancizar Serif", serif;
+}
+.diffrent{
+  color: #d64550;
+  text-decoration: solid underline;
+}
+
+h3{
+  text-align: left;
+}
